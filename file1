@@ -1,2 +1,11 @@
 hi this is our first line
 hello we have installed git in this server using yum install git comment
+then we configured the git by using git config --global username "geetha"
+g c g useremail "abc@gmail.com"
+g c g editor vim
+g c g compression 2
+g c g difference vim.diff
+we can check the verison of git using git --version
+then we make a directory by mkdir mygit
+then in this my git there will be files we view that through ls -lta
+we need to initialize git in this my git directory by git init comment
