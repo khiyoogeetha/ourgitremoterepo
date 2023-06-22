@@ -9,3 +9,13 @@ we can check the verison of git using git --version
 then we make a directory by mkdir mygit
 then in this my git there will be files we view that through ls -lta
 we need to initialize git in this my git directory by git init comment
+after initializing .git in out mygit repo, we can see the files in the .git file and in the mygit repo
+now,we create a file in this mygit directory and make changes to it by adding "hi" to the file
+we add this file to staging area using git add filename comment
+we commit to the local repository using commit git -m "message"
+we can see if we have any uncommited chnages using git status
+git diff will tell if there are any changes in files in the staging but havn't commited to local repository
+git log tells us commit wise logs
+git show <commit id> will tell us the changes made during a particular commit
+we can get simple logs by git log -s
+if we need all the commits detailed w can use git blame 
